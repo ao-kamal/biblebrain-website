@@ -4,28 +4,34 @@ import { GallerySlider } from "@/components/ui/GallerySlider";
 
 const timeline = [
   {
-    year: "2023",
-    highlight: "₦500,000",
-    title: "TBC Executed",
-    detail: "Successfully organized Teenagers' Bible Challenge with prize award",
+    year: "2019 – 2022",
+    highlight: "Local",
+    title: "Locally Hosted",
+    detail: "Bible Brain® hosted in selected locations — quietly building the model",
   },
   {
-    year: "2024",
-    highlight: "₦575,000",
-    title: "Expanded Scale",
-    detail: "Programme scale and participation significantly expanded",
+    year: "2023 & 2024",
+    highlight: "₦1,250,000",
+    title: "Teenagers' Bible Challenge",
+    detail: "Two consecutive editions executed, with combined prize awards across both years",
   },
   {
     year: "2025",
     highlight: "Global",
-    title: "Conference Hosted",
-    detail: "Hosted Global Teenagers' Conference, streamed on sponsor's platforms",
+    title: "Teenagers' Conference",
+    detail: "Hosted the Global Teenagers' Conference, streamed across digital platforms",
   },
   {
-    year: "2026",
-    highlight: "₦1M+",
-    title: "Sponsor Confirmed",
-    detail: "Confirmed sponsor commitment with prize award exceeding ₦1,000,000",
+    year: "2026 Regional",
+    highlight: "₦1,500,000",
+    title: "Prize Secured",
+    detail: "Regional edition with ₦1,500,000 prize pool secured for participants",
+  },
+  {
+    year: "2026 Worldwide",
+    highlight: "₦25,000,000",
+    title: "Prize Funding",
+    detail: "International edition (GTBC) with ₦25,000,000 prize funding committed",
   },
 ];
 
@@ -56,7 +62,7 @@ export function ProvenGrowth() {
         </AnimatedSection>
 
         {/* Timeline */}
-        <div className="mb-10 grid grid-cols-1 gap-4 sm:mb-16 sm:grid-cols-2 md:grid-cols-4">
+        <div className="mb-10 grid grid-cols-1 gap-4 sm:mb-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {timeline.map((item, i) => (
             <AnimatedSection key={item.year} delay={i * 0.12} direction="up">
               <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:bg-white/10">

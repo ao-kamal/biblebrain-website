@@ -43,7 +43,7 @@ export function VisionSection() {
                 </div>
                 <blockquote className="relative z-10">
                   <p className="font-display text-xl font-bold leading-snug text-white sm:text-2xl">
-                    To raise a generation of young people who{" "}
+                    To raise a generation of teenagers who{" "}
                     <span className="text-[#D4AF37]">know God&rsquo;s Word</span>, live it
                     daily, and lead with it.
                   </p>
