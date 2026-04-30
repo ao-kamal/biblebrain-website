@@ -17,17 +17,17 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           {/* Brand */}
           <div>
-            <div className="mb-5 inline-flex items-center justify-center rounded-2xl bg-white p-4">
+            <div className="mb-4 inline-flex items-center justify-center rounded-xl bg-white px-3 py-2">
               <Image
                 src="/banner.png"
                 alt="Bible Brain® — A Scripture Brain Company"
-                width={240}
-                height={80}
-                className="h-auto w-48"
-                sizes="192px"
+                width={200}
+                height={67}
+                className="h-auto w-36"
+                sizes="144px"
               />
             </div>
-            <p className="mt-3 text-sm italic text-[#D4AF37]">
+            <p className="mt-1 text-sm italic text-[#D4AF37]">
               More than a game — a movement.
             </p>
           </div>

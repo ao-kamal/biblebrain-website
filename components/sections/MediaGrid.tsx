@@ -38,6 +38,7 @@ export function MediaGrid() {
           <div className="overflow-hidden rounded-2xl shadow-xl">
             <video
               src="/videos/Are%20You%20A%20Soldier.mp4"
+              poster="/images/gallery/biblebrain/image14.jpeg"
               controls
               playsInline
               preload="metadata"
