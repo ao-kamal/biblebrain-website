@@ -1,4 +1,4 @@
-const PHONE = "2348000000000"; // Replace with actual WhatsApp number
+const PHONE = "2348032556163";
 const MESSAGE = encodeURIComponent(
   "Hello, I found Bible Brain® online and would love to learn more about partnering with you."
 );

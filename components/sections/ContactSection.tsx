@@ -28,8 +28,8 @@ const contactInfo = [
       </svg>
     ),
     label: "YouTube",
-    value: "@biblebrainhq",
-    href: "https://www.youtube.com/@biblebrainhq",
+    value: "@biblebrainng",
+    href: "https://www.youtube.com/@biblebrainng",
   },
   {
     icon: (

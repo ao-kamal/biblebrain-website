@@ -68,7 +68,7 @@ export function HeroSection() {
               </svg>
             </Button>
             <Button
-              href="https://www.youtube.com/@biblebrainhq"
+              href="https://www.youtube.com/@biblebrainng"
               variant="secondary"
               size="lg"
             >
