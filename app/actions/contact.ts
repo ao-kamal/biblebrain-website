@@ -19,6 +19,11 @@ export async function submitContact(formData: unknown) {
     return { success: true };
   }
 
+  const toList = (process.env.CONTACT_TO_EMAILS || "message@biblebrain.ng,collinscheks@gmail.com")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+
   try {
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -28,7 +33,7 @@ export async function submitContact(formData: unknown) {
       },
       body: JSON.stringify({
         from: "Bible Brain Website <noreply@biblebrain.ng>",
-        to: ["message@biblebrain.ng"],
+        to: toList,
         reply_to: email,
         subject: `New message from ${name} via biblebrain.ng`,
         text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
