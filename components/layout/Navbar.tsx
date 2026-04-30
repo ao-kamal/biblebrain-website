@@ -9,6 +9,7 @@ const navLinks = [
   { label: "Programmes", href: "/#programmes" },
   { label: "Events", href: "/#events" },
   { label: "Media", href: "/#media" },
+  { label: "Partner", href: "/partner" },
   { label: "Contact", href: "/#contact" },
 ];
 
@@ -66,7 +67,7 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              href="/#contact"
+              href="/partner"
               className="ml-2 inline-flex items-center rounded-lg bg-[#D4AF37] px-5 py-2.5 text-sm font-bold text-[#0A1F44] transition hover:bg-[#b8960c]"
             >
               Partner With Us
@@ -106,7 +107,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="/#contact"
+              href="/partner"
               onClick={() => setMenuOpen(false)}
               className="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-[#D4AF37] px-6 py-4 text-lg font-bold text-[#0A1F44]"
             >

@@ -11,7 +11,7 @@ export function HeroSection() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('/images/gallery/FB_IMG_1775728564798.jpg')",
+            "url('/images/gallery/biblebrain/image14.jpeg')",
         }}
         aria-hidden="true"
       />

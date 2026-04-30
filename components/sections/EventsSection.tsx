@@ -11,8 +11,9 @@ const events = [
   {
     src: "/images/flyers/flyer-5.jpeg",
     year: "2023",
-    title: "Teenagers' Bible Study",
+    title: "Teenagers' Bible Challenge",
     tag: "That I May Know Him",
+    prize: "₦500,000",
     status: "past",
   },
   {
@@ -20,13 +21,15 @@ const events = [
     year: "2024",
     title: "Teenagers' Bible Challenge",
     tag: "Study to Know God",
+    prize: "₦575,000",
     status: "past",
   },
   {
     src: "/images/flyers/flyer-3.jpeg",
     year: "2025",
     title: "Global Teenagers' Conference",
-    tag: "Choice",
+    tag: "Sponsor-supported · Streamed",
+    prize: null,
     status: "past",
   },
   {
@@ -34,13 +37,15 @@ const events = [
     year: "2026",
     title: "Teenagers' Bible Challenge S3",
     tag: "Unlock the Power of Psalms",
+    prize: "₦1,000,000+",
     status: "upcoming",
   },
   {
     src: "/images/flyers/flyer-2.jpeg",
     year: "2026",
     title: "Global Teenagers' Bible Challenge",
-    tag: "Win $3,000",
+    tag: "International Edition",
+    prize: "Win $3,000",
     status: "upcoming",
   },
 ];
@@ -102,10 +107,17 @@ export function EventsSection() {
 
                     {/* Footer */}
                     <div className="px-4 py-4">
-                      <p className="text-xs font-bold uppercase tracking-widest text-[#D4AF37]">
-                        {event.year}
-                      </p>
-                      <h3 className="mt-0.5 font-display text-sm font-bold leading-snug text-[#0A1F44]">
+                      <div className="flex items-center justify-between">
+                        <p className="text-xs font-bold uppercase tracking-widest text-[#D4AF37]">
+                          {event.year}
+                        </p>
+                        {event.prize && (
+                          <span className="text-xs font-bold text-[#0A1F44]">
+                            {event.prize}
+                          </span>
+                        )}
+                      </div>
+                      <h3 className="mt-1 font-display text-sm font-bold leading-snug text-[#0A1F44]">
                         {event.title}
                       </h3>
                       <p className="mt-0.5 text-xs text-[#0A1F44]/50">&ldquo;{event.tag}&rdquo;</p>

@@ -30,7 +30,7 @@ export function PartnershipCTA() {
             that outlives seasons.
           </p>
 
-          <Button href="/#contact" variant="dark" size="lg" className="mb-12">
+          <Button href="/partner" variant="dark" size="lg" className="mb-12">
             Become a Partner
             <svg
               viewBox="0 0 24 24"

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { AboutHero } from "@/components/sections/AboutHero";
 import { VisionSection } from "@/components/sections/VisionSection";
+import { PlatformOverview } from "@/components/sections/PlatformOverview";
 import { OurModel } from "@/components/sections/OurModel";
 import { WhatMakesUsUnique } from "@/components/sections/WhatMakesUsUnique";
 import { ProvenGrowth } from "@/components/sections/ProvenGrowth";
@@ -20,6 +21,7 @@ export default function AboutPage() {
     <>
       <AboutHero />
       <VisionSection />
+      <PlatformOverview />
       <OurModel />
       <WhatMakesUsUnique />
       <ProvenGrowth />

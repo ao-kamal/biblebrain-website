@@ -5,18 +5,18 @@ import { SectionLabel } from "@/components/ui/SectionLabel";
 import { Button } from "@/components/ui/Button";
 
 const photos = [
-  { src: "/images/gallery/469104909_122127989636462757_7274441282330824869_n.jpg", alt: "Bible Brain® event" },
-  { src: "/images/gallery/469167486_122127989216462757_4247132783227679676_n.jpg", alt: "Bible Brain® youth gathering" },
-  { src: "/images/gallery/469334923_122127989582462757_321122324108153417_n.jpg", alt: "Teenagers at Bible Brain®" },
-  { src: "/images/gallery/527088519_122161971764462757_447699078472779625_n.jpg", alt: "Global Teenagers' Conference" },
-  { src: "/images/gallery/527683916_122161970420462757_8600866377533700599_n.jpg", alt: "Bible Brain® conference highlights" },
-  { src: "/images/gallery/528081189_122161970504462757_3290319724885911841_n.jpg", alt: "Scripture competition" },
-  { src: "/images/gallery/FB_IMG_1775727570739.jpg", alt: "Bible Brain® participants" },
-  { src: "/images/gallery/FB_IMG_1775727650563.jpg", alt: "Youth engaged in Scripture study" },
-  { src: "/images/gallery/FB_IMG_1775727810122.jpg", alt: "Bible Brain® award ceremony" },
-  { src: "/images/gallery/FB_IMG_1775728049416.jpg", alt: "Teenagers at the competition" },
-  { src: "/images/gallery/FB_IMG_1775728210613.jpg", alt: "Bible Brain® programme" },
-  { src: "/images/gallery/FB_IMG_1775728442099.jpg", alt: "Bible Brain® event highlights" },
+  { src: "/images/gallery/biblebrain/image1.jpeg", alt: "Bible Brain® prize presentation — Teenagers' Bible Challenge" },
+  { src: "/images/gallery/biblebrain/image22.jpeg", alt: "Teenagers reading Scripture together at Bible Brain®" },
+  { src: "/images/gallery/biblebrain/image6.jpeg", alt: "Bible Brain® group of participants" },
+  { src: "/images/gallery/biblebrain/image10.jpeg", alt: "Bible Brain® winner receiving prize" },
+  { src: "/images/gallery/biblebrain/image14.jpeg", alt: "Bible Brain® group standing together" },
+  { src: "/images/gallery/biblebrain/image15.jpeg", alt: "Bible Brain® teenagers with signs" },
+  { src: "/images/gallery/biblebrain/image19.jpeg", alt: "Bible Brain® participants in a circle" },
+  { src: "/images/gallery/biblebrain/image17.jpeg", alt: "Bible Brain® attendees together" },
+  { src: "/images/gallery/biblebrain/image24.jpeg", alt: "Bible Brain® competition table" },
+  { src: "/images/gallery/biblebrain/image27.jpeg", alt: "Bible Brain® event group" },
+  { src: "/images/gallery/biblebrain/image28.jpeg", alt: "Bible Brain® participant at the table" },
+  { src: "/images/gallery/biblebrain/image31.jpeg", alt: "Bible Brain® competition with laptops" },
 ];
 
 export function MediaGrid() {

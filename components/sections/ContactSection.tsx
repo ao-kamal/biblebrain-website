@@ -111,6 +111,25 @@ export function ContactSection() {
               ))}
             </ul>
 
+            {/* Enquiry types */}
+            <div className="mb-6">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#0A1F44]/50">
+                We respond to
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["Sponsorship", "Partnerships", "Event Hosting", "Media Enquiries"].map(
+                  (type) => (
+                    <span
+                      key={type}
+                      className="rounded-full bg-[#D4AF37]/10 px-3 py-1.5 text-xs font-semibold text-[#b8960c]"
+                    >
+                      {type}
+                    </span>
+                  )
+                )}
+              </div>
+            </div>
+
             {/* Partnership note */}
             <div className="rounded-2xl border border-[#D4AF37]/20 bg-[#D4AF37]/5 p-6">
               <p className="text-sm font-semibold text-[#0A1F44]">

@@ -15,14 +15,17 @@ export function WhatIsBibleBrain() {
               What is Bible Brain<span className="text-[#D4AF37]">®</span>?
             </h2>
             <p className="mb-6 text-lg leading-relaxed text-[#0A1F44]/70">
-              Bible Brain® is a structured platform that transforms how teenagers engage
-              with Scripture. Through competition, media, and disciplined learning, it
-              turns Bible study into a consistent, engaging, and life-shaping experience.
+              Bible Brain<span className="text-[#D4AF37]">®</span> is a teenagers&rsquo;
+              interactive Bible platform developed by{" "}
+              <span className="font-semibold text-[#0A1F44]">Scripture Brain Limited</span>,
+              designed to guide teenagers and young people through Scripture in a
+              structured, engaging, and disciplined way.
             </p>
             <p className="text-base leading-relaxed text-[#0A1F44]/60">
-              It is built not as a programme, but as a scalable platform with long-term
-              impact — designed to engage young people across schools, churches, and
-              digital platforms.
+              We combine media, competition, and learning systems to transform how
+              teenagers study, understand, and live the Word of God — built not as a
+              one-off programme but as a scalable platform with long-term impact across
+              schools, churches, and digital platforms.
             </p>
 
             {/* Key stats */}

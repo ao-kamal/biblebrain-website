@@ -10,7 +10,7 @@ export function AboutHero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('/images/gallery/FB_IMG_1775728609536.jpg')",
+            "url('/images/gallery/biblebrain/image19.jpeg')",
         }}
         aria-hidden="true"
       />

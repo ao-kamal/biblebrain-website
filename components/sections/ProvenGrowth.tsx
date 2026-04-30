@@ -30,12 +30,12 @@ const timeline = [
 ];
 
 const gallerySlides = [
-  { src: "/images/gallery/FB_IMG_1775727614408.jpg", alt: "Bible Brain® youth gathering" },
-  { src: "/images/gallery/FB_IMG_1775727691542.jpg", alt: "Teenagers at Bible Brain® event" },
-  { src: "/images/gallery/FB_IMG_1775727879504.jpg", alt: "Scripture competition in action" },
-  { src: "/images/gallery/FB_IMG_1775727984073.jpg", alt: "Bible Brain® programme highlights" },
-  { src: "/images/gallery/FB_IMG_1775728127196.jpg", alt: "Teenagers engaged at Bible Brain®" },
-  { src: "/images/gallery/FB_IMG_1775728335831.jpg", alt: "Bible Brain® award ceremony" },
+  { src: "/images/gallery/biblebrain/image1.jpeg", alt: "Bible Brain® prize presentation" },
+  { src: "/images/gallery/biblebrain/image14.jpeg", alt: "Bible Brain® group standing together" },
+  { src: "/images/gallery/biblebrain/image22.jpeg", alt: "Teenagers reading Scripture" },
+  { src: "/images/gallery/biblebrain/image19.jpeg", alt: "Bible Brain® participants in a circle" },
+  { src: "/images/gallery/biblebrain/image10.jpeg", alt: "Bible Brain® winner receiving prize" },
+  { src: "/images/gallery/biblebrain/image27.jpeg", alt: "Bible Brain® event group photo" },
 ];
 
 export function ProvenGrowth() {
